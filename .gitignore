@@ -1,0 +1,65 @@
+# Python
+venv/
+.venv/
+.venv*/
+*/venv/
+*/.venv/
+*/.venv*/
+__pycache__/
+*/__pycache__/
+*/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.sqlite
+*.sqlite3
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Node / JS
+node_modules/
+*/node_modules/
+dist/
+build/
+.next/
+out/
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+*.iml
+*.ipr
+*.iws
+
+# OS & IDE
+.DS_Store
+*/.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+*/logs/
+capture_data.db
+SurfSense-main/
+open-notebook-main/
+notebookllama-main/
+datasets/
+db_kaggle_sematicsearch/
+memory-main/
+
+# Build artifacts & runtime files
+capture_data.db-shm
+capture_data.db-wal
+capture_api/course_export.zip
+uploads/
+frontend/.dev-store.json
+dist/
